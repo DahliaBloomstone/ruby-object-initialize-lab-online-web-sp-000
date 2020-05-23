@@ -1,8 +1,8 @@
 #step 1: Initialize with attributes (name and breed)
 class Dog
-def initialize(name, breed = "Mutt")
-@name = name
-@breed = breed
+def initialize(name, breed = "Mutt")  #Default argument = Mutt. 
+@name = name #Instance Variable name.
+@breed = breed #Instance Variable breed.
 end
 
 #Step 2: Setter Method for name and breed
